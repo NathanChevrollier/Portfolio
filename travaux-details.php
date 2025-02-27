@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Projets</title>
+  <title>Travaux</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -37,9 +37,8 @@
 </head>
 
 <body>
-
   <main id="main">
-
+    
     <!-- ======= Portfolio Details ======= -->
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
@@ -47,8 +46,8 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Projet</h2>
-
+            <h2  class="portfolio-title">Travaux</h2>
+            
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
@@ -67,28 +66,30 @@
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
+            
           </div>
-
+          
           <div class="col-lg-4 portfolio-info">
+            
             <h3>Description du Projet</h3>
             <ul>
-              <li><strong>Category</strong>: Web </li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 Mars, 2024</li>
-              <li><strong>Project URL</strong>: <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">Github</a></li>
+              <li><strong>Catégorie</strong>: Web </li>
+              <li><strong>Cadre</strong>: "école" </li>
+              <li><strong>terminée le</strong>: 01 Mars, 2024</li>
+              <li><strong>Page du projet</strong>: <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">Github</a></li>
             </ul>
 
             <p>
               Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
             </p>
           </div>
-
+          
         </div>
-
+        
       </div>
+      <a style="margin-left: 40px;" href="index.php" class="btn btn-secondary" >retour</a>
     </div><!-- End Portfolio Details -->
-
+    
   </main><!-- End #main -->
 
   <div class="credits">
@@ -96,7 +97,10 @@
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    
+    <a href="https://bootstrapmade.com/">Mentions légales
+      
+    </a>
   </div>
 
   <!-- Vendor JS Files -->

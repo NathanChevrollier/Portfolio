@@ -22,6 +22,7 @@ body::before {
   position: fixed;
   background-image: url("../img/test9.jpg");
   background-size: cover;
+  filter: brightness(180%);
   left: 0;
   right: 0;
   top: 0;
@@ -360,7 +361,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(50, 50, 50,0.9);
+  background: rgba(50, 50, 50,0.95);
   padding: 30px;
 }
 
@@ -439,6 +440,8 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -519,15 +522,20 @@ section .container {
 }
 .skills .social-links a {
   font-size: 16px;
-  display: flex;
+  padding: 8px;
+  padding-left: 30px;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
-  margin-right: 8px;
+  margin-top: 10px;
   width: 160px;
   height: 40px;
 }
+
+
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
@@ -793,6 +801,15 @@ section .container {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
+}
+
+.services .veille h3{
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.services .veille{
+  line-height: 1.6;
 }
 
 /*--------------------------------------------------------------
@@ -1214,4 +1231,6 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
 
