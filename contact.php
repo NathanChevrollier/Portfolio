@@ -12,7 +12,7 @@
           <div class="info-box">
             <i class="bx bx-map"></i>
             <h3>Mon adresse</h3>
-            <p>23 rue de la Barre, Angers 49000</p>
+            <p>Angers 49000</p>
           </div>
         </div>
 
