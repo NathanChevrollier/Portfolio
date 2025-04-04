@@ -10,7 +10,7 @@
 </head>
 
 <header>
-    <a class="retour" href="index.php" class="btn btn-secondary" >Retour</a>
+    <a class="retour" href="#competences" class="btn btn-secondary" >Retour</a>
     <h1>Mes Compétences</h1>
 </header>
 

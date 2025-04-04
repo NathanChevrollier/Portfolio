@@ -10,15 +10,18 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">Tout</li>
-            <li data-filter=".filter-app">élément 1</li>
-            <li data-filter=".filter-card">élément 2</li>
-            <li data-filter=".filter-web">élément 3</li>
+            <li data-filter=".filter-app">compétence 1</li>
+            <li data-filter=".filter-card">compétence 2</li>
+            <li data-filter=".filter-web">compétence 3</li>
+            <li data-filter=".filter-web">compétence 4</li>
+            <li data-filter=".filter-web">compétence 5</li>
+            <li data-filter=".filter-web">compétence 6</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
-
+        /*projet / réalisation base */
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">

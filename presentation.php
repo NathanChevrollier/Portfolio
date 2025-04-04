@@ -42,7 +42,7 @@
           </ul>
         </div>
         <div class="bts_sio">
-          <h2>Répartition horaires des cours</h2>
+          <h2>Tableau de synthese</h2>
 
           <p>
             ...

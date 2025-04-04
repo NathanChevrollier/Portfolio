@@ -12,7 +12,6 @@
           <li><a class="nav-link" href="#resume">Présentation</a></li>
           <li><a class="nav-link" href="#entreprise">Entreprise</a></li>
           <li><a class="nav-link" href="#veille">Veille</a></li>
-          <li><a class="nav-link" href="#travaux">Mes Travaux</a></li>
           <li><a class="nav-link" href="#portfolio">Mes projets</a></li>
           <li><a class="nav-link" href="#competences">Compétences</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -26,7 +25,7 @@
         <a target="_blank" href="assets/files/CV_Chevrollier_Nathan.pdf" class="linkedin" ><i class="bi bi-download"></i><i class='bi bi-file-earmark-text'></i></a>   
       </div>
       <div class="social-links">
-        <a target="_blank" href="#fiche-synthese" class="synthese">Fiche de synthèse <i class="bi bi-book"></i></a>
+        <a target="_blank" href="#presentation" class="synthese">Fiche de synthèse <i class="bi bi-book"></i></a>
       </div>
       
 

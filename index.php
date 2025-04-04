@@ -15,8 +15,6 @@
 
   <?php include_once("veille.php"); ?>
 
-  <?php include_once("travaux.php"); ?>
-
   <?php include_once("projet.php"); ?>
 
   <?php include_once("competences.php"); ?>
