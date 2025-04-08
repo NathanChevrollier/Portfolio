@@ -25,8 +25,9 @@
         <a target="_blank" href="assets/files/CV_Chevrollier_Nathan.pdf" class="linkedin" ><i class="bi bi-download"></i><i class='bi bi-file-earmark-text'></i></a>   
       </div>
       <div class="social-links">
-        <a target="_blank" href="#presentation" class="synthese">Fiche de synthèse <i class="bi bi-book"></i></a>
+        <a href="index.php#resume" class="synthese"><i class="bi bi-book"></i></a>
       </div>
+
       
 
   </header>
