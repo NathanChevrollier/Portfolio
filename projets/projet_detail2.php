@@ -215,7 +215,65 @@
         </div>
 
       </div>
-    </div><!-- End Portfolio Details -->
+      <div class="row mt-5">
+      <div class="col-12">
+        <h3>Compétences du BTS SIO mises en œuvre</h3>
+        <p>
+          Ce projet a permis de développer et démontrer plusieurs compétences du référentiel du BTS SIO option SLAM, 
+          comme illustré dans le tableau de synthèse ci-dessous:
+        </p>
+        
+        <div class="table-responsive mt-4">
+          <table class="table table-bordered">
+            <thead class="table-dark">
+              <tr>
+                <th>Compétence</th>
+                <th>Comment elle est mise en œuvre dans B-Formation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Gérer le patrimoine informatique</strong></td>
+                <td>
+                  <ul>
+                    <li>Conception et implémentation d'une base de données relationnelle MySQL pour stocker les informations des utilisateurs, classes, matières, et signatures</li>
+                    <li>Mise en place d'une architecture MVC personnalisée garantissant la maintenabilité du code</li>
+                    <li>Gestion des utilisateurs avec différents niveaux d'accès et de droits (administrateur, enseignant, étudiant)</li>
+                    <li>Configuration d'un pipeline CI/CD avec GitHub Actions pour automatiser le déploiement</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Travailler en mode projet</strong></td>
+                <td>
+                  <ul>
+                    <li>Planification rigoureuse du développement comme illustré dans le diagramme de Gantt</li>
+                    <li>Division du projet en phases distinctes: analyse, conception, développement, tests et déploiement</li>
+                    <li>Utilisation de Git pour le versioning du code et le suivi des modifications</li>
+                    <li>Documentation technique complète du projet (dictionnaire de données, MCD, MLD, MPD)</li>
+                    <li>Conception de diagrammes UML pour modéliser l'architecture et les cas d'utilisation</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Mettre à disposition des utilisateurs un service informatique</strong></td>
+                <td>
+                  <ul>
+                    <li>Développement d'interfaces adaptées à chaque type d'utilisateur pour une expérience intuitive</li>
+                    <li>Mise en place d'un système de signature numérique pour le suivi des présences</li>
+                    <li>Création d'un tableau de bord pour que les enseignants puissent suivre en temps réel les signatures</li>
+                    <li>Conception d'une interface responsive avec Bootstrap 5 pour garantir l'accessibilité sur différents appareils</li>
+                    <li>Sécurisation de l'accès aux fonctionnalités grâce à une gestion des rôles</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+    
 
   </main><!-- End #main -->
 
