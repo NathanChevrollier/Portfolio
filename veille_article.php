@@ -9,7 +9,7 @@
 </head>
 
 <header>
-    <a class="retour" href="#veille" class="btn btn-secondary">Retour</a>
+    <a class="retour" href="index.php#veille">Retour à la veille</a>
     <h1>Veille Technologique</h1>
 </header>
 

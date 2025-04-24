@@ -26,6 +26,30 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- Barre esthétique CSS -->
+  <style>
+    .titre-barre {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #18d26e 60%, #35e888 100%);
+      border-radius: 2px;
+      margin: 0 0 24px 0;
+      display: block;
+    }
+    .titre-section {
+      color: #18d26e;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    .competences-bts {
+      background: rgba(24,210,110,0.08);
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+    }
+  </style>
 </head>
 
 <body>
@@ -63,7 +87,8 @@
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3>Informations du Projet</h3>
+            <h3 class="titre-section">Informations du Projet</h3>
+            <div class="titre-barre"></div>
             <ul>
               <li><strong>Catégorie</strong>: Application Web</li>
               <li><strong>Contexte</strong>: BTS SIO 2025</li>
@@ -82,12 +107,14 @@
 
         <div class="row mt-5">
             <div class="col-12">
-                <h3>Description détaillée</h3>
+                <h3 class="titre-section">Description détaillée</h3>
+                <div class="titre-barre"></div>
                 <p>
                   Ce portfolio a été développé comme un projet complet de présentation professionnelle, intégrant l'ensemble des compétences et une partie des projets réalisés durant mon parcours en BTS SIO option SLAM. Il s'agit d'une application web responsive basée sur un template Bootstrap personnalisé, avec une architecture PHP modulaire.
                 </p>
 
-                <h4>Objectifs du projet</h4>
+                <h4 class="titre-section">Objectifs du projet</h4>
+                <div class="titre-barre"></div>
                 <ul>
                   <li><strong>Présenter mon profil</strong> : Mettre en avant mon parcours, mes compétences techniques et mon expérience professionnelle</li>
                   <li><strong>Valoriser mes réalisations</strong> : Exposer les projets significatifs réalisés pendant ma formation</li>
@@ -95,7 +122,8 @@
                   <li><strong>Établir ma présence en ligne</strong> : Créer une vitrine professionnelle accessible aux recruteurs et aux entreprises</li>
                 </ul>
 
-                <h4>Fonctionnalités principales</h4>
+                <h4 class="titre-section">Fonctionnalités principales</h4>
+                <div class="titre-barre"></div>
                 <ul>
                   <li><strong>Page d'accueil personnalisée</strong> avec présentation synthétique de mon profil</li>
                   <li><strong>Section présentation</strong> incluant le tableau de synthèse BTS SIO</li>
@@ -107,7 +135,8 @@
                   <li><strong>Formulaire de contact</strong></li>
                 </ul>
 
-                <h4>Aspects techniques</h4>
+                <h4 class="titre-section">Aspects techniques</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Le développement de ce portfolio s'appuie sur plusieurs techniques et technologies :
                 </p>
@@ -119,13 +148,15 @@
                   <li><strong>PHP</strong> : Gestion du formulaire de contact avec validation et protection contre les injections</li>
                 </ul>
 
-                <h4>Liens avec les compétences du référentiel BTS SIO</h4>
+                <h4 class="titre-section">Liens avec les compétences du référentiel BTS SIO</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Ce projet de portfolio met en œuvre deux compétences principales du référentiel BTS SIO option SLAM :
                 </p>
 
                 <div class="mt-4">
-                  <h5>Compétence 3 : Développer la présence en ligne de l'organisation</h5>
+                  <h5 class="titre-section">Compétence 3 : Développer la présence en ligne de l'organisation</h5>
+                  <div class="titre-barre"></div>
                   <ul>
                     <li>
                       <strong>Participer à la valorisation de l'image de l'organisation sur les médias numériques</strong>
@@ -139,7 +170,8 @@
                 </div>
 
                 <div class="mt-4">
-                  <h5>Compétence 6 : Organiser son développement professionnel</h5>
+                  <h5 class="titre-section">Compétence 6 : Organiser son développement professionnel</h5>
+                  <div class="titre-barre"></div>
                   <ul>
                     <li>
                       <strong>Gérer son identité professionnelle</strong>
@@ -156,7 +188,8 @@
                   </ul>
                 </div>
 
-                <h4>Processus de développement</h4>
+                <h4 class="titre-section">Processus de développement</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Le développement de ce portfolio a suivi une approche méthodique en plusieurs phases :
                 </p>
@@ -169,7 +202,8 @@
                   <li><strong>Configuration du déploiement</strong> : Mise en place du système GitHub Actions pour le déploiement automatisé</li>
                 </ol>
 
-                <h4>Défis techniques relevés</h4>
+                <h4 class="titre-section">Défis techniques relevés</h4>
+                <div class="titre-barre"></div>
                 <p>
                   La réalisation de ce portfolio a nécessité de surmonter plusieurs défis techniques :
                 </p>
@@ -188,7 +222,8 @@
                   </li>
                 </ul>
 
-                <h4>Perspectives d'évolution</h4>
+                <h4 class="titre-section">Perspectives d'évolution</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Ce portfolio est conçu comme un projet évolutif qui s'enrichira au fil de mon parcours professionnel :
                 </p>
@@ -199,7 +234,8 @@
                   <li>Intégration d'analyses d'audience pour mesurer l'impact du portfolio</li>
                 </ul>
 
-                <h4>Conclusion</h4>
+                <h4 class="titre-section">Conclusion</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Ce portfolio représente un élément essentiel de mon parcours en BTS SIO, démontrant ma capacité à concevoir et développer un site web professionnel. Il met en valeur mes compétences techniques tout en servant de vitrine pour mes réalisations et mon expérience professionnelle. En tant qu'outil évolutif, il m'accompagnera tout au long de ma carrière professionnelle, s'enrichissant de nouvelles réalisations et compétences.
                 </p>

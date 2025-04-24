@@ -26,6 +26,30 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- Barre esthétique CSS -->
+  <style>
+    .titre-barre {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #18d26e 60%, #35e888 100%);
+      border-radius: 2px;
+      margin: 0 0 24px 0;
+      display: block;
+    }
+    .titre-section {
+      color: #18d26e;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    .competences-bts {
+      background: rgba(24,210,110,0.08);
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+    }
+  </style>
 </head>
 
 <body>
@@ -55,7 +79,8 @@
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3>Informations sur l'alternance</h3>
+            <h3 class="titre-section">Informations sur l'alternance</h3>
+            <div class="titre-barre"></div>
             <ul>
               <li><strong>Entreprise</strong>: My Micro</li>
               <li><strong>Secteur</strong>: Informatique / Services</li>
@@ -73,7 +98,8 @@
 
         <div class="row mt-5">
             <div class="col-12">
-                <h3>Description de l'entreprise et de mon rôle</h3>
+                <h3 class="titre-section">Description de l'entreprise et de mon rôle</h3>
+                <div class="titre-barre"></div>
                 <p>
                   My Micro est une entreprise spécialisée dans le domaine de l'informatique, offrant une gamme complète de services aux particuliers et professionnels. Fondée à Angers, elle s'est développée pour proposer également des services à Thouarcé. L'entreprise allie vente de matériel informatique, prestations de services techniques (réparation, maintenance, installation) et solutions informatiques personnalisées.
                 </p>
@@ -88,7 +114,8 @@
                   <li>La participation à la mise à jour du site web de l'entreprise</li>
                 </ul>
 
-                <h4>Projets et réalisations clés</h4>
+                <h4 class="titre-section">Projets et réalisations clés</h4>
+                <div class="titre-barre"></div>
                 
                 <!-- SECTION À COMPLÉTER AVEC VOS PROJETS SPÉCIFIQUES -->
                 <div class="mt-4">
@@ -131,13 +158,15 @@
                   </p>
                 </div>
 
-                <h4>Liens avec les compétences du référentiel BTS SIO</h4>
+                <h4 class="titre-section">Liens avec les compétences du référentiel BTS SIO</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Mes missions en alternance chez My Micro m'ont permis de développer plusieurs compétences clés du référentiel BTS SIO :
                 </p>
 
                 <div class="mt-4">
-                  <h5>Compétence 1 : Gérer le patrimoine informatique</h5>
+                  <h5 class="titre-section">Compétence 1 : Gérer le patrimoine informatique</h5>
+                  <div class="titre-barre"></div>
                   <ul>
                     <li>
                       <strong>Recenser et identifier les ressources numériques</strong>
@@ -167,7 +196,8 @@
                 </div>
 
                 <div class="mt-4">
-                  <h5>Compétence 2 : Répondre aux incidents et aux demandes d'assistance</h5>
+                  <h5 class="titre-section">Compétence 2 : Répondre aux incidents et aux demandes d'assistance</h5>
+                  <div class="titre-barre"></div>
                   <ul>
                     <li>
                       <strong>Collecter, suivre et orienter des demandes</strong>
@@ -190,7 +220,8 @@
 
                 <!-- Si d'autres compétences sont pertinentes pour votre alternance chez My Micro, ajoutez-les ici -->
 
-                <h4>Méthodologies et outils utilisés</h4>
+                <h4 class="titre-section">Méthodologies et outils utilisés</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Durant mon alternance, j'ai eu l'occasion d'utiliser et de me former à divers outils et méthodologies :
                 </p>
@@ -203,7 +234,8 @@
                   <li><strong>Méthodologies de gestion de projet</strong> : [Si applicable]</li>
                 </ul>
 
-                <h4>Compétences développées et impact professionnel</h4>
+                <h4 class="titre-section">Compétences développées et impact professionnel</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Cette expérience en alternance chez My Micro m'a permis de développer significativement mes compétences techniques et professionnelles :
                 </p>
@@ -216,7 +248,8 @@
                   L'alternance chez My Micro a constitué une étape déterminante dans mon parcours professionnel, me permettant de mettre en pratique les connaissances théoriques acquises en formation et de développer une expérience concrète dans un environnement professionnel dynamique.
                 </p>
 
-                <h4>Conclusion</h4>
+                <h4 class="titre-section">Conclusion</h4>
+                <div class="titre-barre"></div>
                 <p>
                   Mon alternance chez My Micro m'a offert un cadre d'apprentissage riche et varié, me permettant d'acquérir des compétences pratiques essentielles dans le domaine de l'informatique. Les missions confiées ont parfaitement complété ma formation théorique en BTS SIO, en me confrontant à des situations professionnelles réelles et diversifiées.
                 </p>

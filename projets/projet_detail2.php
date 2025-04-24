@@ -26,6 +26,30 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- Barre esthétique CSS -->
+  <style>
+    .titre-barre {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #18d26e 60%, #35e888 100%);
+      border-radius: 2px;
+      margin: 0 0 24px 0;
+      display: block;
+    }
+    .titre-section {
+      color: #18d26e;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    .competences-bts {
+      background: rgba(24,210,110,0.08);
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+    }
+  </style>
 </head>
 
 <body>
@@ -65,7 +89,8 @@
             </div>
 
             <div class="col-lg-4 portfolio-info">
-                <h3>Description du Projet</h3>
+                <h3 class="titre-section">Description du Projet</h3>
+                <span class="titre-barre"></span>
                 <p>
                 B-Formation est une application web de gestion administrative développée pour les établissements d'enseignement. Elle propose une solution complète pour la gestion des cours, des présences et des emplois du temps.
                 </p>
@@ -80,24 +105,6 @@
                 B-Formation répond aux besoins administratifs des établissements d'enseignement en offrant une plateforme centralisée pour gérer les aspects essentiels de l'organisation pédagogique. L'application permet de suivre la présence des étudiants grâce à un système de signature numérique, d'organiser les emplois du temps et de gérer efficacement les ressources humaines et matérielles.
                 </p>
                 
-                <h4>Principales fonctionnalités</h4>
-                <ul>
-                    <li>Gestion des utilisateurs (administrateurs, enseignants, élèves)</li>
-                    <li>Gestion des classes et des matières</li>
-                    <li>Planification des emplois du temps</li>
-                    <li>Système de signature numérique pour le suivi des présences</li>
-                    <li>Interfaces dédiées pour chaque type d'utilisateur</li>
-                    <li>Système d'authentification sécurisé</li>
-                </ul>
-                
-                <h4>Technologies utilisées</h4>
-                <ul>
-                    <li>PHP (Architecture MVC personnalisée)</li>
-                    <li>MySQL (Base de données relationnelle)</li>
-                    <li>Bootstrap 5 (Interface responsive)</li>
-                    <li>JavaScript (Interactions utilisateur)</li>
-                    <li>Git (Versioning et déploiement)</li>
-                </ul>
             </div>
 
         </div>
@@ -105,7 +112,102 @@
         <!-- Section détaillée -->
         <div class="row mt-5">
           <div class="col-12">
-            <h3>Architecture du projet</h3>
+            <h4 class="titre-section">Compétences BTS SIO mises en œuvre</h4>
+            <span class="titre-barre"></span>
+            <div class="competences-bts">
+              <ul>
+                <li>Gérer le patrimoine informatique</li>
+                <li>Travailler en mode projet</li>
+                <li>Mettre à disposition un service</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <h3 class="titre-section">Compétences du BTS SIO mises en œuvre</h3>
+            <span class="titre-barre"></span>
+            <p>
+              Ce projet a permis de développer et démontrer plusieurs compétences du référentiel du BTS SIO option SLAM, 
+              comme illustré dans le tableau de synthèse ci-dessous:
+            </p>
+            <div class="table-responsive mt-4">
+              <table class="table table-bordered">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Compétence</th>
+                    <th>Comment elle est mise en œuvre dans B-Formation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Gérer le patrimoine informatique</strong></td>
+                    <td>
+                      <ul>
+                        <li>Conception et implémentation d'une base de données relationnelle MySQL pour stocker les informations des utilisateurs, classes, matières, et signatures</li>
+                        <li>Mise en place d'une architecture MVC personnalisée garantissant la maintenabilité du code</li>
+                        <li>Gestion des utilisateurs avec différents niveaux d'accès et de droits (administrateur, enseignant, étudiant)</li>
+                        <li>Configuration d'un pipeline CI/CD avec GitHub Actions pour automatiser le déploiement</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Travailler en mode projet</strong></td>
+                    <td>
+                      <ul>
+                        <li>Planification rigoureuse du développement comme illustré dans le diagramme de Gantt</li>
+                        <li>Division du projet en phases distinctes: analyse, conception, développement, tests et déploiement</li>
+                        <li>Utilisation de Git pour le versioning du code et le suivi des modifications</li>
+                        <li>Documentation technique complète du projet (dictionnaire de données, MCD, MLD, MPD)</li>
+                        <li>Conception de diagrammes UML pour modéliser l'architecture et les cas d'utilisation</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Mettre à disposition des utilisateurs un service informatique</strong></td>
+                    <td>
+                      <ul>
+                        <li>Développement d'interfaces adaptées à chaque type d'utilisateur pour une expérience intuitive</li>
+                        <li>Mise en place d'un système de signature numérique pour le suivi des présences</li>
+                        <li>Création d'un tableau de bord pour que les enseignants puissent suivre en temps réel les signatures</li>
+                        <li>Conception d'une interface responsive avec Bootstrap 5 pour garantir l'accessibilité sur différents appareils</li>
+                        <li>Sécurisation de l'accès aux fonctionnalités grâce à une gestion des rôles</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <h4 class="titre-section">Principales fonctionnalités</h4>
+            <span class="titre-barre"></span>
+            <ul>
+                <li>Gestion des utilisateurs (administrateurs, enseignants, élèves)</li>
+                <li>Gestion des classes et des matières</li>
+                <li>Planification des emplois du temps</li>
+                <li>Système de signature numérique pour le suivi des présences</li>
+                <li>Interfaces dédiées pour chaque type d'utilisateur</li>
+                <li>Système d'authentification sécurisé</li>
+            </ul>
+            
+            <h4 class="titre-section mt-4">Technologies utilisées</h4>
+            <span class="titre-barre"></span>
+            <ul>
+                <li>PHP (Architecture MVC personnalisée)</li>
+                <li>MySQL (Base de données relationnelle)</li>
+                <li>Bootstrap 5 (Interface responsive)</li>
+                <li>JavaScript (Interactions utilisateur)</li>
+                <li>Git (Versioning et déploiement)</li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <h3 class="titre-section">Architecture du projet</h3>
+            <span class="titre-barre"></span>
             <p>
               B-Formation est construit selon une architecture MVC (Modèle-Vue-Contrôleur) personnalisée qui garantit une séparation claire des préoccupations et facilite la maintenance du code. Le projet s'articule autour de cinq entités principales, comme détaillé dans nos diagrammes ci-dessous.
             </p>
@@ -119,14 +221,16 @@
             
             <div class="row mt-4">
               <div class="col-md-6">
-                <h4>Modèle de données (MPD)</h4>
+                <h4 class="titre-section">Modèle de données (MPD)</h4>
+                <span class="titre-barre"></span>
                 <p>La base de données du projet est organisée autour de 5 tables principales :</p>
                 <img src="../assets/img/bform/4-MPD.png" alt="Modèle Physique de Données" class="img-fluid mb-3">
                 <p class="text-muted">Modèle physique de données montrant les relations entre les entités du système</p>
               </div>
               
               <div class="col-md-6">
-                <h4>Acteurs du système</h4>
+                <h4 class="titre-section">Acteurs du système</h4>
+                <span class="titre-barre"></span>
                 <img src="../assets/img/bform/6-Diagramme de contexte.drawio.png" alt="Diagramme des acteurs" class="img-fluid mb-3">
                 <p>Le système propose trois niveaux d'accès avec des fonctionnalités spécifiques :</p>
                 <ul>
@@ -139,7 +243,8 @@
             
             <div class="row mt-4">
               <div class="col-md-6">
-                <h4>Architecture technique</h4>
+                <h4 class="titre-section">Architecture technique</h4>
+                <span class="titre-barre"></span>
                 <img src="../assets/img/bform/7-Diagramme de package.drawio.png" alt="Diagramme d'architecture" class="img-fluid mb-3">
                 <p>
                   Cette architecture illustre les relations entre les contrôleurs et la façon dont l'application gère l'authentification, les utilisateurs, les classes, les matières, les emplois du temps et les signatures.
@@ -147,7 +252,8 @@
               </div>
               
               <div class="col-md-6">
-                <h4>Cas d'utilisation</h4>
+                <h4 class="titre-section">Cas d'utilisation</h4>
+                <span class="titre-barre"></span>
                 <img src="../assets/img/bform/8-diagramme de classes simplifié.png" alt="Diagramme de cas d'utilisation" class="img-fluid mb-3">
                 <p>
                   Ce diagramme montre les différentes interactions entre les entités du système et comment les utilisateurs accèdent aux différentes fonctionnalités.
@@ -157,7 +263,8 @@
             
             <div class="row mt-4">
               <div class="col-12">
-                <h4>Planification du projet</h4>
+                <h4 class="titre-section">Planification du projet</h4>
+                <span class="titre-barre"></span>
                 <img src="../assets/img/bform/5-gantt.png" alt="Diagramme de planification" class="img-fluid mb-3">
                 <p>
                   La planification du projet a été organisée en plusieurs phases, de l'analyse des besoins au déploiement final, en passant par le développement des différents modules du système.
@@ -167,7 +274,8 @@
             
             <div class="row mt-4">
               <div class="col-12">
-                <h4>Fonctionnement du système de signature</h4>
+                <h4 class="titre-section">Fonctionnement du système de signature</h4>
+                <span class="titre-barre"></span>
                 <p>
                   Le système de signature des présences fonctionne selon un processus simple et efficace :
                 </p>
@@ -185,7 +293,8 @@
             
             <div class="row mt-4">
               <div class="col-12">
-                <h4>Défis techniques et solutions</h4>
+                <h4 class="titre-section">Défis techniques et solutions</h4>
+                <span class="titre-barre"></span>
                 <p>
                   Le développement de B-Formation a nécessité de relever plusieurs défis techniques :
                 </p>
@@ -200,7 +309,8 @@
             
             <div class="row mt-4">
               <div class="col-12">
-                <h4>Perspectives d'évolution</h4>
+                <h4 class="titre-section">Perspectives d'évolution</h4>
+                <span class="titre-barre"></span>
                 <p>
                   B-Formation est conçu pour évoluer et s'enrichir de nouvelles fonctionnalités :
                 </p>
@@ -215,63 +325,6 @@
         </div>
 
       </div>
-      <div class="row mt-5">
-      <div class="col-12">
-        <h3>Compétences du BTS SIO mises en œuvre</h3>
-        <p>
-          Ce projet a permis de développer et démontrer plusieurs compétences du référentiel du BTS SIO option SLAM, 
-          comme illustré dans le tableau de synthèse ci-dessous:
-        </p>
-        
-        <div class="table-responsive mt-4">
-          <table class="table table-bordered">
-            <thead class="table-dark">
-              <tr>
-                <th>Compétence</th>
-                <th>Comment elle est mise en œuvre dans B-Formation</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Gérer le patrimoine informatique</strong></td>
-                <td>
-                  <ul>
-                    <li>Conception et implémentation d'une base de données relationnelle MySQL pour stocker les informations des utilisateurs, classes, matières, et signatures</li>
-                    <li>Mise en place d'une architecture MVC personnalisée garantissant la maintenabilité du code</li>
-                    <li>Gestion des utilisateurs avec différents niveaux d'accès et de droits (administrateur, enseignant, étudiant)</li>
-                    <li>Configuration d'un pipeline CI/CD avec GitHub Actions pour automatiser le déploiement</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Travailler en mode projet</strong></td>
-                <td>
-                  <ul>
-                    <li>Planification rigoureuse du développement comme illustré dans le diagramme de Gantt</li>
-                    <li>Division du projet en phases distinctes: analyse, conception, développement, tests et déploiement</li>
-                    <li>Utilisation de Git pour le versioning du code et le suivi des modifications</li>
-                    <li>Documentation technique complète du projet (dictionnaire de données, MCD, MLD, MPD)</li>
-                    <li>Conception de diagrammes UML pour modéliser l'architecture et les cas d'utilisation</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Mettre à disposition des utilisateurs un service informatique</strong></td>
-                <td>
-                  <ul>
-                    <li>Développement d'interfaces adaptées à chaque type d'utilisateur pour une expérience intuitive</li>
-                    <li>Mise en place d'un système de signature numérique pour le suivi des présences</li>
-                    <li>Création d'un tableau de bord pour que les enseignants puissent suivre en temps réel les signatures</li>
-                    <li>Conception d'une interface responsive avec Bootstrap 5 pour garantir l'accessibilité sur différents appareils</li>
-                    <li>Sécurisation de l'accès aux fonctionnalités grâce à une gestion des rôles</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
     </div>
     
 
