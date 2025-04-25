@@ -26,6 +26,30 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- Barre esthétique CSS -->
+  <style>
+    .titre-barre {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #18d26e 60%, #35e888 100%);
+      border-radius: 2px;
+      margin: 0 0 24px 0;
+      display: block;
+    }
+    .titre-section {
+      color: #18d26e;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    .competences-bts {
+      background: rgba(24,210,110,0.08);
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+    }
+  </style>
 </head>
 
 <body>
@@ -63,7 +87,8 @@
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3>Informations du Projet</h3>
+            <h3 class="titre-section">Informations du Projet</h3>
+            <span class="titre-barre"></span>
             <ul>
               <li><strong>Catégorie</strong>: Application Web/Desktop</li>
               <li><strong>Client</strong>: Microlead</li>
@@ -81,12 +106,14 @@
 
         <div class="row mt-5">
             <div class="col-12">
-                <h3>Description détaillée</h3>
+                <h3 class="titre-section">Description détaillée</h3>
+                <span class="titre-barre"></span>
                 <p>
                 La Calculette de prêt immobilier est une application développée dans le cadre du BTS SIO 2025. Elle offre une interface intuitive permettant de simuler rapidement les conditions d'un prêt immobilier et visualiser l'évolution du remboursement mois par mois.
                 </p>
 
-                <h4>Fonctionnalités principales</h4>
+                <h4 class="titre-section">Fonctionnalités principales</h4>
+                <span class="titre-barre"></span>
                 <ul>
                 <li><strong>Calcul de mensualités</strong> : À partir du montant emprunté, du taux d'intérêt et de la durée du prêt</li>
                 <li><strong>Tableau d'amortissement complet</strong> : Affichage détaillé mois par mois du solde initial, des échéances, des intérêts, de l'amortissement et du solde restant</li>
@@ -95,7 +122,8 @@
                 <li><strong>Application multiplateforme</strong> : Disponible comme application web ou application desktop grâce à Electron</li>
                 </ul>
 
-                <h4>Aspects techniques</h4>
+                <h4 class="titre-section">Aspects techniques</h4>
+                <span class="titre-barre"></span>
                 <p>
                 Le projet a été développé en utilisant les technologies web standards (HTML, CSS, JavaScript) et packagé comme application desktop grâce au framework Electron. Cette approche permet une distribution simplifiée et une expérience utilisateur cohérente sur tous les systèmes d'exploitation.
                 </p>
@@ -103,7 +131,8 @@
                 L'interface utilisateur a été soigneusement conçue pour offrir une expérience intuitive et responsive, avec une attention particulière portée aux détails comme la validation des champs de saisie et les messages d'erreur personnalisés.
                 </p>
 
-                <h4>Lien avec les compétences du tableau de synthèse</h4>
+                <h4 class="titre-section">Lien avec les compétences du tableau de synthèse</h4>
+                <span class="titre-barre"></span>
                 <p>
                 Ce projet a permis de développer plusieurs compétences clés du référentiel BTS SIO option SLAM :
                 </p>
@@ -125,7 +154,8 @@
                 </li>
                 </ul>
 
-                <h4>Processus de développement</h4>
+                <h4 class="titre-section">Processus de développement</h4>
+                <span class="titre-barre"></span>
                 <p>
                 Le développement a suivi une méthodologie agile. Les principales étapes ont été :
                 </p>
@@ -139,7 +169,8 @@
                 <li>Tests et corrections de bugs</li>
                 </ol>
 
-                <h4>Défis techniques surmontés</h4>
+                <h4 class="titre-section">Défis techniques surmontés</h4>
+                <span class="titre-barre"></span>
                 <p>
                 Au cours du développement, plusieurs défis techniques ont été relevés :
                 </p>
@@ -150,7 +181,8 @@
                 <li>Optimisation des performances pour gérer efficacement les tableaux d'amortissement sur de longues durées</li>
                 </ul>
 
-                <h4>Bénéfices et applications</h4>
+                <h4 class="titre-section">Bénéfices et applications</h4>
+                <span class="titre-barre"></span>
                 <p>
                 Cette calculette immobilière peut être utilisée par différents acteurs :
                 </p>

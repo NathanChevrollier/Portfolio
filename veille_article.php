@@ -10,6 +10,14 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 </head>
 
+<<<<<<< HEAD
+=======
+<header>
+    <a class="retour" href="index.php#veille">Retour à la veille</a>
+    <h1>Veille Technologique</h1>
+</header>
+
+>>>>>>> 9309fd8c46371a916c653494041980b24e619d55
 <body>
     <header>
         <a class="retour" href="index.php#veille">Retour</a>

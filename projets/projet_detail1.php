@@ -27,6 +27,30 @@
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
 
+  <!-- Barre esthétique CSS -->
+  <style>
+    .titre-barre {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, #18d26e 60%, #35e888 100%);
+      border-radius: 2px;
+      margin: 0 0 24px 0;
+      display: block;
+    }
+    .titre-section {
+      color: #18d26e;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    .competences-bts {
+      background: rgba(24,210,110,0.08);
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: Personal
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -49,7 +73,8 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Projet</h2>
+            <h2 class="portfolio-title titre-section">Projet</h2>
+            <div class="titre-barre"></div>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -73,7 +98,8 @@
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3>Description du Projet</h3>
+            <h3 class="titre-section">Description du Projet</h3>
+            <div class="titre-barre"></div>
             <ul>
               <li><strong>Catégorie</strong>: Web </li>
               <li><strong>Client</strong>: "nom client" </li>

@@ -60,7 +60,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: ease-in-out 0.3s;
-  position: relative;
+  position: relative !important;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -127,6 +127,15 @@ h6 {
 #header .social-links a:hover {
   background: #18d26e;
 }
+
+/* Suppression des styles liés au bouton synthèse et wrapper */
+/* .synthese-wrapper, .btn-synthese { ... } supprimés */
+
+/* Si besoin, tu peux supprimer ou commenter ces blocs CSS :
+.synthese-wrapper { ... }
+.btn-synthese { ... }
+#header.header-top .btn-synthese { ... }
+*/
 
 @media (max-width: 992px) {
   #header h1 {
@@ -1231,6 +1240,3 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-
-

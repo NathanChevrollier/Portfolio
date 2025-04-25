@@ -10,18 +10,18 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">Tout</li>
-            <li data-filter=".filter-app">compétence 1</li>
-            <li data-filter=".filter-card">compétence 2</li>
-            <li data-filter=".filter-web">compétence 3</li>
-            <li data-filter=".filter-web">compétence 4</li>
-            <li data-filter=".filter-web">compétence 5</li>
-            <li data-filter=".filter-web">compétence 6</li>
+            <li data-filter=".filter-competence1">Gérer le patrimoine informatique</li>
+            <li data-filter=".filter-competence2">Répondre aux incidents</li>
+            <li data-filter=".filter-competence3">Développer la présence en ligne</li>
+            <li data-filter=".filter-competence4">Travailler en mode projet</li>
+            <li data-filter=".filter-competence5">Mettre à disposition un service</li>
+            <li data-filter=".filter-competence6">Organiser son développement pro</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-competence1 filter-competence3 filter-competence4 filter-competence5">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-competence1 filter-competence4 filter-competence5">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-competence3 filter-competence5">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -63,7 +63,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-competence3 filter-competence6">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -77,7 +77,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-competence1 filter-competence2">
           <div class="portfolio-wrap">
             <img src="assets/img/soon.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
