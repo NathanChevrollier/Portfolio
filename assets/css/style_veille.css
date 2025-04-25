@@ -1,13 +1,131 @@
+/* Style pour les boutons et liens de la veille technologique */
 .btn-outline-success {
     color: #18d26e;
     border: 1px solid #18d26e;
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btn-outline-success i {
+    margin-right: 6px;
+    font-size: 16px;
 }
 
 .btn-outline-success:hover {
     background-color: #18d26e;
     color: #fff;
+    text-decoration: none;
+}
+
+/* Style pour la section article */
+.article-content {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    line-height: 1.7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-content p {
+    margin-bottom: 15px;
+}
+
+/* Style pour les icons dans les listes */
+.sous-competences i, 
+.sous-competences-validees i {
+    color: #18d26e;
+    margin-right: 8px;
+}
+
+/* Navigation entre articles */
+.nav-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.nav-articles a {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.nav-articles a:hover {
+    background-color: rgba(24, 210, 110, 0.3);
+}
+
+.nav-articles a i {
+    margin-right: 5px;
+}
+
+/* Mise en forme de la date et auteur */
+.article-meta {
+    display: flex;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.article-meta div {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.article-meta i {
+    margin-right: 5px;
+    color: #18d26e;
+}
+
+/* Mise en évidence des citations et références */
+blockquote {
+    border-left: 3px solid #18d26e;
+    padding: 10px 20px;
+    background-color: rgba(24, 210, 110, 0.05);
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Style pour les tags d'article */
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.article-tags span {
+    background-color: rgba(24, 210, 110, 0.2);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+/* Responsive design pour la veille */
+@media (max-width: 768px) {
+    .article-meta {
+        flex-direction: column;
+    }
+    
+    .article-meta div {
+        margin-bottom: 8px;
+    }
+    
+    .nav-articles {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
