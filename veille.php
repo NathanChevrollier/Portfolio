@@ -1,60 +1,77 @@
 <section id="veille" class="services">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Veille</h2>
-        <p>Ma veille technologique</p>
-      </div>
-
-      <div class="veille">
-        <h3>Veille Technologique</h3>
-
-        <p>
-        La veille technologique est cruciale pour se tenir informé des nouveautés et des changements apportés à nos outils de travail. 
-        Elle permet de rester à jour sur les évolutions du secteur informatique, d'anticiper les tendances et d'adapter ses compétences.
-        Pour un professionnel en informatique, cette démarche est essentielle pour maintenir son expertise et sa compétitivité.
-        Explorez régulièrement de nouvelles bibliothèques, suivez les mises à jour des langages, participez à des événements et projets open source. 
-        Ce processus continu vous permettra de rester à la pointe de l'innovation dans cet écosystème dynamique.
-        </p>
-
-      </div>
-      <div>
-        <h3>Mise en place de ma veille</h3>
-        <p>
-          Pour assurer une veille efficace et complète, j'utilise plusieurs sources d'information complémentaires :
-        </p>
-        <ul>
-          <li><strong>Twitter :</strong> Je suis des comptes spécialisés en développement, cybersécurité et technologies web qui partagent régulièrement des actualités, articles techniques et nouvelles tendances.</li>
-          <li><strong>Feedly :</strong> J'utilise cet agrégateur pour centraliser les flux RSS de blogs techniques, sites officiels et forums spécialisés, me permettant de consulter efficacement l'information.</li>
-          <li><strong>Newsletters :</strong> Je suis abonné à plusieurs newsletters hebdomadaires qui me fournissent une synthèse des actualités importantes dans le domaine du développement web et de la sécurité.</li>
-          <li><strong>Webinaires et conférences :</strong> Je participe régulièrement à des événements en ligne pour approfondir certains sujets et découvrir les innovations présentées par les experts du domaine.</li>
-        </ul>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-react"></i></div>
-            <h4><a href="veille_article.php?id=1">L'impact de l'IA sur le développement</a></h4>
-            <p>Comment les outils d'IA comme Copilot et Claude transforment les pratiques de développement et augmentent la productivité.</p>
-          </div>
+    <div class="container mt-5 mb-5">
+      <h2 class="portfolio-title">Ma veille technologique</h2>
+      <span class="titre-barre"></span>
+      <p>
+        Dans le cadre de ma formation <strong>BTS SIO option SLAM</strong>, j’ai mis en place une veille technologique continue sur deux axes majeurs pour mon futur métier de développeur&nbsp;: <span class="veille-badge badge">Intelligence Artificielle</span> et <span class="veille-badge badge">Langages de programmation</span> (principalement Python et PHP).
+      </p>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <h3 class="titre-section"><i class="bi bi-lightbulb veille-icon"></i>Sujets surveillés</h3>
+          <span class="titre-barre"></span>
+          <ul class="veille-list list-unstyled">
+            <li><strong>Intelligence Artificielle&nbsp;:</strong> actualités, nouveaux outils (ChatGPT, modèles open-source), usages dans le développement, enjeux éthiques, impacts sur les métiers IT.</li>
+            <li><strong>Langages de programmation&nbsp;:</strong> évolutions de Python et PHP, bonnes pratiques, frameworks, nouveautés des versions récentes.</li>
+          </ul>
         </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-shield"></i></div>
-            <h4><a href="veille_article.php?id=2">Tendances DevSecOps en 2025</a></h4>
-            <p>Analyse des pratiques d'intégration de la sécurité dans le cycle de développement et stratégies pour sécuriser son infrastructure.</p>
-          </div>
+        <div class="col-md-6">
+          <h3 class="titre-section"><i class="bi bi-tools veille-icon"></i>Outils & méthodes</h3>
+          <span class="titre-barre"></span>
+          <ul class="veille-list list-unstyled veille-tools">
+            <li><strong>Twitter/X</strong> : suivi de comptes spécialisés (OpenAI, Real Python, PHPNet, etc.) via une liste dédiée.</li>
+            <li><strong>Newsletters</strong> :
+              <ul class="veille-ressources">
+                <li>Python Weekly (Python)</li>
+                <li>PHP Weekly (PHP)</li>
+                <li>The Batch (IA – DeepLearning.AI)</li>
+              </ul>
+            </li>
+            <li><strong>Feedly</strong> : agrégateur RSS, collections thématiques&nbsp;:
+              <ul class="veille-ressources">
+                <li><strong>IA (francophone)</strong> : ActuIA, LeBigData, The Conversation France, L’Usine Digitale</li>
+                <li><strong>Python / PHP</strong> : Real Python, PHP.net, Laravel News, Dev.to</li>
+              </ul>
+            </li>
+            <li><strong>Email dédiée</strong> pour centraliser la réception des newsletters et ressources.</li>
+          </ul>
         </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-javascript"></i></div>
-            <h4><a href="veille_article.php?id=3">Les frameworks JavaScript à suivre</a></h4>
-            <p>Comparaison des performances et fonctionnalités des frameworks modernes comme React, Vue, Svelte et les nouveaux entrants.</p>
-          </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <h3 class="titre-section"><i class="bi bi-link-45deg veille-icon"></i>Exemples de sources suivies</h3>
+          <span class="titre-barre"></span>
+          <ul class="veille-ressources">
+            <li><a href="https://openai.com/blog/" target="_blank">OpenAI Blog</a></li>
+            <li><a href="https://www.realpython.com/" target="_blank">Real Python</a></li>
+            <li><a href="https://www.phpweekly.com/" target="_blank">PHP Weekly</a></li>
+            <li><a href="https://thebatch.deeplearning.ai/" target="_blank">The Batch (DeepLearning.AI)</a></li>
+            <li><a href="https://www.actuia.com/" target="_blank">ActuIA</a></li>
+            <li><a href="https://www.lebigdata.fr/" target="_blank">LeBigData</a></li>
+            <li><a href="https://www.laravel-news.com/" target="_blank">Laravel News</a></li>
+            <li><a href="https://dev.to/" target="_blank">Dev.to</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <h3 class="titre-section"><i class="bi bi-journal-text veille-icon"></i>Organisation et bonnes pratiques</h3>
+          <span class="titre-barre"></span>
+          <ul class="veille-list list-unstyled">
+            <li>Lecture hebdomadaire des newsletters et flux RSS, archivage des articles pertinents.</li>
+            <li>Sauvegarde des ressources clés dans un dossier dédié (cloud et local).</li>
+            <li>Partage d’actualités et discussions avec d’autres étudiants via Discord et forums spécialisés.</li>
+            <li>Veille active sur les nouveautés majeures (ex. sortie d’une nouvelle version de Python ou d’un outil IA important).</li>
+          </ul>
         </div>
       </div>
     </div>
+    <style>
+      .titre-section { font-size: 1.5rem; font-weight: 600; margin-top: 2rem; }
+      .titre-barre { display: block; width: 60px; height: 5px; background: #198754; margin: 10px 0 20px 0; border-radius: 3px; }
+      .veille-icon { font-size: 2rem; color: #198754; vertical-align: middle; margin-right: 10px; }
+      .veille-list li { margin-bottom: 8px; }
+      .veille-ressources li { margin-bottom: 5px; }
+      .veille-tools { font-size: 1.1rem; }
+      .veille-badge { background: #198754; color: #fff; margin-right: 6px; }
+    </style>
   </section>

@@ -67,28 +67,22 @@
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
                   <img src="../assets/img/port/portfolio1.jpg" alt="Page d'accueil du portfolio" class="img-fluid">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/port/portfolio2.jpg" alt="Section tableau de synthese" class="img-fluid">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/portfolio/portfolio-projets.jpg" alt="Section projets" class="img-fluid">
                 </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3 class="titre-section">Informations du Projet</h3>
-            <div class="titre-barre"></div>
+            <h3>Informations du Projet</h3>
             <ul>
               <li><strong>Catégorie</strong>: Application Web</li>
               <li><strong>Contexte</strong>: BTS SIO 2025</li>
@@ -97,7 +91,6 @@
               <li><strong>Dépôt</strong>: <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">GitHub</a></li>
               <li><strong>Déploiement</strong>: CI/CD avec GitHub Actions</li>
             </ul>
-
             <p>
               Portfolio professionnel conçu pour présenter mon parcours, mes compétences et mes réalisations dans le cadre du BTS SIO. Ce site sert à la fois d'outil de présentation pour l'épreuve E5 et de vitrine professionnelle pour ma recherche d'emploi ou de poursuite d'études.
             </p>
@@ -105,143 +98,184 @@
 
         </div>
 
+        <!-- Harmonisation et structuration détaillée -->
         <div class="row mt-5">
-            <div class="col-12">
-                <h3 class="titre-section">Description détaillée</h3>
-                <div class="titre-barre"></div>
-                <p>
-                  Ce portfolio a été développé comme un projet complet de présentation professionnelle, intégrant l'ensemble des compétences et une partie des projets réalisés durant mon parcours en BTS SIO option SLAM. Il s'agit d'une application web responsive basée sur un template Bootstrap personnalisé, avec une architecture PHP modulaire.
-                </p>
+          <div class="col-12">
+            <h3 class="titre-section">Description succincte du projet</h3>
+            <span class="titre-barre"></span>
+            <ul class="list-unstyled">
+              <li><strong>Date, lieu :</strong> Avril 2025, <span class="text-muted">CEFIM Tours (BTS SIO 2025)</span></li>
+              <li><strong>Projet personnel</strong>, accompagné par l'équipe enseignante du CEFIM</li>
+            </ul>
+            <h4 class="titre-section">Contexte</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Outil de présentation pour l'épreuve E5 du BTS SIO</li>
+              <li>Vitrine professionnelle pour la recherche d'emploi ou la poursuite d'études</li>
+            </ul>
+            <p>Valorisation de mon parcours et de mes compétences, en accord avec le référentiel BTS SIO.</p>
 
-                <h4 class="titre-section">Objectifs du projet</h4>
-                <div class="titre-barre"></div>
-                <ul>
-                  <li><strong>Présenter mon profil</strong> : Mettre en avant mon parcours, mes compétences techniques et mon expérience professionnelle</li>
-                  <li><strong>Valoriser mes réalisations</strong> : Exposer les projets significatifs réalisés pendant ma formation</li>
-                  <li><strong>Documenter mes compétences</strong> : Faire le lien entre mes réalisations et les compétences du référentiel BTS SIO</li>
-                  <li><strong>Établir ma présence en ligne</strong> : Créer une vitrine professionnelle accessible aux recruteurs et aux entreprises</li>
-                </ul>
+            <h4 class="titre-section">Environnement technique</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Frontend</strong> : HTML5, CSS3, JavaScript, Bootstrap 5</li>
+              <li><strong>Backend</strong> : PHP (structure modulaire, traitement du formulaire)</li>
+              <li><strong>Librairies JS</strong> : Swiper (sliders), Isotope (filtrage projets)</li>
+              <li><strong>Versioning</strong> : Git et GitHub</li>
+              <li><strong>CI/CD</strong> : GitHub Actions (déploiement automatisé)</li>
+              <li><strong>IDE</strong> : Visual Studio Code + extensions PHP/HTML/CSS</li>
+              <li><strong>Sources</strong> : Docs Bootstrap, tutoriels PHP.net, cours CEFIM, Stack Overflow</li>
+            </ul>
 
-                <h4 class="titre-section">Fonctionnalités principales</h4>
-                <div class="titre-barre"></div>
-                <ul>
-                  <li><strong>Page d'accueil personnalisée</strong> avec présentation synthétique de mon profil</li>
-                  <li><strong>Section présentation</strong> incluant le tableau de synthèse BTS SIO</li>
-                  <li><strong>Section entreprise</strong> présentant mes expériences professionnelles (alternance et stage)</li>
-                  <li><strong>Section veille technologique</strong> pour présenter mes différentes méthodes de veilles</li>
-                  <li><strong>Section projets</strong> avec galerie et liens vers les descriptions détaillées</li>
-                  <li><strong>Section compétences</strong> détaillant les six compétences du référentiel BTS SIO</li>
-                  <li><strong>Fiches détaillées</strong> pour chaque compétence avec les sous-compétences associées</li>
-                  <li><strong>Formulaire de contact</strong></li>
-                </ul>
+            <h4 class="titre-section">Fonctionnalités principales</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Présentation interactive de mon parcours et de mes compétences</li>
+              <li>Affichage dynamique des projets réalisés</li>
+              <li>Section tableau de synthèse des compétences</li>
+              <li>Formulaire de contact sécurisé (PHP)</li>
+              <li>Responsive design (Bootstrap)</li>
+              <li>Déploiement automatisé via CI/CD</li>
+            </ul>
 
-                <h4 class="titre-section">Aspects techniques</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Le développement de ce portfolio s'appuie sur plusieurs techniques et technologies :
-                </p>
-                <ul>
-                  <li><strong>Architecture modulaire</strong> : Structure PHP avec inclusion de fichiers (header.php, presentation.php, etc.) permettant une maintenance facilitée</li>
-                  <li><strong>Framework Bootstrap</strong> : Utilisation de Bootstrap 5 pour un design responsive et moderne</li>
-                  <li><strong>Intégration CI/CD</strong> : Configuration GitHub Actions pour le déploiement automatisé lors des pushs sur la branche main</li>
-                  <li><strong>Javascript</strong> : Utilisation de librairies comme Swiper pour les sliders et Isotope pour le filtrage des projets</li>
-                  <li><strong>PHP</strong> : Gestion du formulaire de contact avec validation et protection contre les injections</li>
-                </ul>
-
-                <h4 class="titre-section">Liens avec les compétences du référentiel BTS SIO</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Ce projet de portfolio met en œuvre deux compétences principales du référentiel BTS SIO option SLAM :
-                </p>
-
-                <div class="mt-4">
-                  <h5 class="titre-section">Compétence 3 : Développer la présence en ligne de l'organisation</h5>
-                  <div class="titre-barre"></div>
-                  <ul>
-                    <li>
-                      <strong>Participer à la valorisation de l'image de l'organisation sur les médias numériques</strong>
-                      <p>J'ai adapté un template Bootstrap professionnel pour créer une identité visuelle cohérente qui valorise mon image. L'utilisation de styles personnalisés (style.css) et d'icônes modern (Bootstrap Icons, Boxicons) contribue à une présentation soignée.</p>
-                    </li>
-                    <li>
-                      <strong>Participer à l'évolution d'un site Web exploitant les données de l'organisation</strong>
-                      <p>J'ai structuré le site avec une architecture modulaire en PHP qui permet d'ajouter facilement de nouveaux contenus. Les données sont organisées de façon cohérente entre les différentes sections (projets, compétences, etc.).</p>
-                    </li>
-                  </ul>
+            <h4 class="titre-section">Liste des tâches et planification</h4>
+            <span class="titre-barre"></span>
+            <div class="timeline-container mb-4">
+              <div class="timeline">
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Analyse & conception</h5>
+                    <ul class="timeline-list">
+                      <li>Définition des objectifs du portfolio</li>
+                      <li>Identification des sections nécessaires</li>
+                      <li>Sélection du template Bootstrap</li>
+                    </ul>
+                  </div>
                 </div>
-
-                <div class="mt-4">
-                  <h5 class="titre-section">Compétence 6 : Organiser son développement professionnel</h5>
-                  <div class="titre-barre"></div>
-                  <ul>
-                    <li>
-                      <strong>Gérer son identité professionnelle</strong>
-                      <p>Le portfolio constitue le cœur de mon identité numérique professionnelle, présentant mon profil, mes compétences et mes réalisations. J'ai intégré des liens vers mes réseaux professionnels (LinkedIn, GitHub) et proposé mon CV en téléchargement.</p>
-                    </li>
-                    <li>
-                      <strong>Mettre en œuvre des outils et stratégies de veille informationnelle</strong>
-                      <p>La section veille technologique du portfolio présente ma méthode de veille et les résultats de cette démarche à travers des articles structurés.</p>
-                    </li>
-                    <li>
-                      <strong>Développer son projet professionnel</strong>
-                      <p>Le travail réalisé sur ce portfolio m'a permis de structurer et présenter mon parcours de formation et mes compétences de manière cohérente, soutenant ainsi mon projet professionnel.</p>
-                    </li>
-                  </ul>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Développement</h5>
+                    <ul class="timeline-list">
+                      <li>Personnalisation du template "Personal"</li>
+                      <li>Architecture modulaire en PHP</li>
+                      <li>Création des pages de compétences</li>
+                      <li>Développement des fiches projets</li>
+                      <li>Implémentation du formulaire de contact</li>
+                    </ul>
+                  </div>
                 </div>
-
-                <h4 class="titre-section">Processus de développement</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Le développement de ce portfolio a suivi une approche méthodique en plusieurs phases :
-                </p>
-                <ol>
-                  <li><strong>Sélection et adaptation du template</strong> : Choix du template Bootstrap "Personal" comme base et personnalisation</li>
-                  <li><strong>Structure de l'architecture</strong> : Mise en place de l'inclusion modulaire des différentes sections en PHP</li>
-                  <li><strong>Création des pages de compétences</strong> : Développement des 6 pages détaillées pour chaque compétence du référentiel</li>
-                  <li><strong>Intégration des projets</strong> : Création des fiches détaillées pour chaque projet significatif</li>
-                  <li><strong>Développement du formulaire de contact</strong> : Mise en place et sécurisation du formulaire PHP</li>
-                  <li><strong>Configuration du déploiement</strong> : Mise en place du système GitHub Actions pour le déploiement automatisé</li>
-                </ol>
-
-                <h4 class="titre-section">Défis techniques relevés</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  La réalisation de ce portfolio a nécessité de surmonter plusieurs défis techniques :
-                </p>
-                <ul>
-                  <li>
-                    <strong>Architecture modulaire</strong> : Structuration du code PHP pour permettre une maintenance facile et l'ajout de nouveaux contenus sans modifier la structure principale
-                  </li>
-                  <li>
-                    <strong>Adaptation responsive</strong> : Personnalisation du template Bootstrap pour garantir une expérience utilisateur optimale sur tous les appareils
-                  </li>
-                  <li>
-                    <strong>Sécurisation du formulaire</strong> : Mise en place de validations côté serveur pour le formulaire de contact
-                  </li>
-                  <li>
-                    <strong>Configuration CI/CD</strong> : Mise en place du workflow GitHub Actions pour automatiser le déploiement sur le serveur
-                  </li>
-                </ul>
-
-                <h4 class="titre-section">Perspectives d'évolution</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Ce portfolio est conçu comme un projet évolutif qui s'enrichira au fil de mon parcours professionnel :
-                </p>
-                <ul>
-                  <li>Enrichissement de la section veille technologique avec de nouveaux articles</li>
-                  <li>Ajout de nouveaux projets réalisés pendant la formation et en entreprise</li>
-                  <li>Amélioration du référencement avec des meta tags plus spécifiques</li>
-                  <li>Intégration d'analyses d'audience pour mesurer l'impact du portfolio</li>
-                </ul>
-
-                <h4 class="titre-section">Conclusion</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Ce portfolio représente un élément essentiel de mon parcours en BTS SIO, démontrant ma capacité à concevoir et développer un site web professionnel. Il met en valeur mes compétences techniques tout en servant de vitrine pour mes réalisations et mon expérience professionnelle. En tant qu'outil évolutif, il m'accompagnera tout au long de ma carrière professionnelle, s'enrichissant de nouvelles réalisations et compétences.
-                </p>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Déploiement</h5>
+                    <ul class="timeline-list">
+                      <li>Configuration du dépôt GitHub</li>
+                      <li>Mise en place du workflow CI/CD</li>
+                      <li>Tests de compatibilité navigateurs</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Maintenance & évolution</h5>
+                    <ul class="timeline-list">
+                      <li>Ajout de nouveaux projets</li>
+                      <li>Mise à jour de la veille technologique</li>
+                      <li>Optimisation du référencement</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+            <style>
+              .timeline-container { position: relative; }
+              .timeline {
+                position: relative;
+                margin-left: 20px;
+                padding-left: 20px;
+                border-left: 4px solid #198754;
+              }
+              .timeline-phase {
+                position: relative;
+                margin-bottom: 30px;
+              }
+              .timeline-dot {
+                position: absolute;
+                left: -32px;
+                top: 6px;
+                width: 20px;
+                height: 20px;
+                background: #198754;
+                border-radius: 50%;
+                border: 3px solid #fff;
+                box-shadow: 0 0 0 2px #198754;
+              }
+              .timeline-title {
+                font-size: 1.15rem;
+                font-weight: 600;
+                margin-bottom: 8px;
+              }
+              .timeline-list {
+                margin-bottom: 0;
+              }
+              @media (max-width: 575px) {
+                .timeline { margin-left: 10px; padding-left: 10px; }
+                .timeline-dot { left: -22px; width: 14px; height: 14px; }
+              }
+            </style>
 
+            <h4 class="titre-section">Difficultés rencontrées & solutions</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Architecture modulaire PHP :</strong> Système d'inclusion de fichiers avec variables partagées et constantes pour les chemins.</li>
+              <li><strong>Responsive design :</strong> Personnalisation des breakpoints Bootstrap et tests multi-écrans.</li>
+              <li><strong>Sécurisation du formulaire :</strong> Validation côté serveur, filtrage des entrées, protection XSS/CSRF.</li>
+              <li><strong>CI/CD :</strong> GitHub Actions avec script personnalisé et gestion des secrets.</li>
+            </ul>
+
+            <h4 class="titre-section">Bilan personnel</h4>
+            <span class="titre-barre"></span>
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="titre-section">Aptitudes renforcées</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Maîtrise de Bootstrap pour des interfaces responsives</li>
+                  <li>Intégration et personnalisation de templates</li>
+                  <li>Structuration modulaire PHP</li>
+                  <li>Utilisation de Git/GitHub</li>
+                  <li>Configuration CI/CD</li>
+                  <li>Organisation et présentation professionnelle</li>
+                  <li>Documentation des compétences</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="titre-section">Axes d'amélioration</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Optimisation des performances (chargement asynchrone)</li>
+                  <li>Amélioration du SEO</li>
+                  <li>Gestion de contenu dynamique (base de données)</li>
+                  <li>Accessibilité (normes WCAG)</li>
+                  <li>Internationalisation (multilingue)</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 class="titre-section">Annexes</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Code source sur <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">github.com/NathanChevrollier/NathanC_public</a></li>
+              <li>Documentation technique de l'architecture PHP modulaire</li>
+              <li>Tableau de synthèse des compétences BTS SIO</li>
+              <li>Schéma du workflow CI/CD</li>
+              <li>Maquettes et wireframes</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div><!-- End Portfolio Details -->
 

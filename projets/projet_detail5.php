@@ -67,28 +67,23 @@
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
                   <img src="../assets/img/entreprise.jpg" alt="Locaux My Micro" class="img-fluid">
                 </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3 class="titre-section">Informations sur l'alternance</h3>
-            <div class="titre-barre"></div>
+            <h3>Informations sur l'alternance</h3>
             <ul>
               <li><strong>Entreprise</strong>: My Micro</li>
               <li><strong>Secteur</strong>: Informatique / Services</li>
               <li><strong>Localisation</strong>: Angers / Thouarcé</li>
-              <li><strong>Période</strong>: [Dates de votre alternance]</li>
+              <li><strong>Période</strong>: Septembre 2023 - Juillet 2025</li>
               <li><strong>Site Web</strong>: <a href="https://www.my-micro.net" target="_blank">www.my-micro.net</a></li>
             </ul>
-
             <p>
               My Micro est un magasin d'informatique proposant des services de réparation de PC portables et smartphones, d'assemblage de PC, de configuration réseau et de location de machines virtuelles. Durant mon alternance, j'ai participé à diverses missions techniques qui ont contribué au développement de mes compétences professionnelles.
             </p>
@@ -96,169 +91,186 @@
 
         </div>
 
+        <!-- Harmonisation et structuration détaillée -->
         <div class="row mt-5">
-            <div class="col-12">
-                <h3 class="titre-section">Description de l'entreprise et de mon rôle</h3>
-                <div class="titre-barre"></div>
-                <p>
-                  My Micro est une entreprise spécialisée dans le domaine de l'informatique, offrant une gamme complète de services aux particuliers et professionnels. Fondée à Angers, elle s'est développée pour proposer également des services à Thouarcé. L'entreprise allie vente de matériel informatique, prestations de services techniques (réparation, maintenance, installation) et solutions informatiques personnalisées.
-                </p>
-                <p>
-                  En tant qu'alternant en BTS SIO, mon rôle a été polyvalent, me permettant de développer des compétences variées dans plusieurs domaines clés de l'informatique. Mes principales responsabilités ont couvert :
-                </p>
-                <ul>
-                  <li>La gestion et la maintenance du parc informatique</li>
-                  <li>L'assistance et le dépannage auprès des clients</li>
-                  <li>La configuration de réseaux et systèmes</li>
-                  <li>L'assemblage et la configuration de matériel</li>
-                  <li>La participation à la mise à jour du site web de l'entreprise</li>
-                </ul>
+          <div class="col-12">
+            <h3 class="titre-section">Description succincte de l'alternance</h3>
+            <span class="titre-barre"></span>
+            <ul class="list-unstyled">
+              <li><strong>Période :</strong> Septembre 2023 - Juillet 2025, <span class="text-muted">My Micro, Angers / Thouarcé</span></li>
+              <li><strong>Alternance encadrée par un responsable technique et une équipe de techniciens spécialisés</strong></li>
+            </ul>
+            <h4 class="titre-section">Contexte</h4>
+            <span class="titre-barre"></span>
+            <p>
+              My Micro est une entreprise spécialisée dans l'informatique, offrant une gamme complète de services aux particuliers et professionnels (vente, réparation, maintenance, solutions réseau, virtualisation, etc.). Alternance réalisée dans le cadre du BTS SIO SLAM, avec application concrète des compétences du référentiel.
+            </p>
+            <ul>
+              <li>Gestion du patrimoine informatique et support technique</li>
+              <li>Participation active aux interventions et à la relation client</li>
+              <li>Collaboration avec les équipes technique, commerciale et administrative</li>
+            </ul>
 
-                <h4 class="titre-section">Projets et réalisations clés</h4>
-                <div class="titre-barre"></div>
-                
-                <!-- SECTION À COMPLÉTER AVEC VOS PROJETS SPÉCIFIQUES -->
-                <div class="mt-4">
-                  <h5>Inventaire et gestion du parc informatique</h5>
-                  <p>
-                    [Description de votre mission d'inventaire : outils utilisés, processus mis en place, résultats obtenus]
-                  </p>
-                  <p>
-                    [Détails sur les méthodes de gestion du parc mises en œuvre]
-                  </p>
+            <h4 class="titre-section">Environnement technique</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Systèmes</strong> : Windows 10/11/Server, Linux (Ubuntu, Debian)</li>
+              <li><strong>Outils diagnostic</strong> : HWiNFO, CrystalDiskInfo, AIDA64</li>
+              <li><strong>Réseau</strong> : Wireshark, routeurs/switchs Cisco</li>
+              <li><strong>Sauvegarde</strong> : Acronis True Image, solutions hybrides</li>
+              <li><strong>Virtualisation</strong> : VMware</li>
+              <li><strong>Développement</strong> : HTML, CSS, PHP, JavaScript</li>
+              <li><strong>Gestion tickets</strong> : suivi par mails et agenda</li>
+            </ul>
+
+            <h4 class="titre-section">Missions principales</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Gestion du parc informatique (inventaire, maintenance, suivi licences)</li>
+              <li>Support technique et assistance client (diagnostic, installation, formation, assistance à distance)</li>
+              <li>Administration réseau (installation, configuration, dépannage, Wi-Fi pro)</li>
+              <li>Solutions de sauvegarde et sécurité (installation, configuration, sensibilisation clients)</li>
+              <li>Contribution au site web (mise à jour catalogue, optimisation SEO, fiches conseils, refonte partielle)</li>
+            </ul>
+
+            <h4 class="titre-section">Liste des tâches et planification</h4>
+            <span class="titre-barre"></span>
+            <div class="timeline-container mb-4">
+              <div class="timeline">
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Prise de poste & intégration</h5>
+                    <ul class="timeline-list">
+                      <li>Découverte de l'entreprise et des outils internes</li>
+                      <li>Formation aux procédures et outils de diagnostic</li>
+                      <li>Observation des interventions et premiers accompagnements</li>
+                    </ul>
+                  </div>
                 </div>
-                
-                <div class="mt-4">
-                  <h5>Système de tickets d'assistance client</h5>
-                  <p>
-                    [Description du système de gestion des demandes d'assistance]
-                  </p>
-                  <p>
-                    [Votre rôle dans la mise en place ou l'utilisation de ce système]
-                  </p>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Gestion du parc & support</h5>
+                    <ul class="timeline-list">
+                      <li>Mise en place d'inventaire</li>
+                      <li>Maintenance préventive</li>
+                      <li>Diagnostic et dépannage matériel</li>
+                      <li>Support utilisateurs et assistance à distance</li>
+                    </ul>
+                  </div>
                 </div>
-                
-                <div class="mt-4">
-                  <h5>Configuration et déploiement de solutions réseau</h5>
-                  <p>
-                    [Description des projets de configuration réseau réalisés]
-                  </p>
-                  <p>
-                    [Technologies et méthodes utilisées]
-                  </p>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Administration réseau & sécurité</h5>
+                    <ul class="timeline-list">
+                      <li>Installation/configuration réseaux et Wi-Fi</li>
+                      <li>Gestion de la sécurité et des sauvegardes</li>
+                      <li>Tests de restauration</li>
+                    </ul>
+                  </div>
                 </div>
-                
-                <div class="mt-4">
-                  <h5>Mise à jour du site web de l'entreprise</h5>
-                  <p>
-                    [Description de votre contribution au site web]
-                  </p>
-                  <p>
-                    [Technologies et outils utilisés]
-                  </p>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Contribution web & documentation</h5>
+                    <ul class="timeline-list">
+                      <li>Mises à jour du site web</li>
+                      <li>Optimisation des contenus</li>
+                      <li>Création de guides techniques internes</li>
+                    </ul>
+                  </div>
                 </div>
-
-                <h4 class="titre-section">Liens avec les compétences du référentiel BTS SIO</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Mes missions en alternance chez My Micro m'ont permis de développer plusieurs compétences clés du référentiel BTS SIO :
-                </p>
-
-                <div class="mt-4">
-                  <h5 class="titre-section">Compétence 1 : Gérer le patrimoine informatique</h5>
-                  <div class="titre-barre"></div>
-                  <ul>
-                    <li>
-                      <strong>Recenser et identifier les ressources numériques</strong>
-                      <p>[Détails sur vos activités d'inventaire et de documentation du parc informatique]</p>
-                    </li>
-                    <li>
-                      <strong>Exploiter des référentiels, normes et standards</strong>
-                      <p>[Exemples concrets d'utilisation de référentiels ou standards dans votre travail]</p>
-                    </li>
-                    <li>
-                      <strong>Mettre en place et vérifier les niveaux d'habilitation</strong>
-                      <p>[Si applicable : exemples de gestion des droits utilisateurs]</p>
-                    </li>
-                    <li>
-                      <strong>Vérifier les conditions de la continuité de service</strong>
-                      <p>[Exemples de mesures mises en place pour assurer la continuité]</p>
-                    </li>
-                    <li>
-                      <strong>Gérer des sauvegardes</strong>
-                      <p>[Détails sur les systèmes de sauvegarde que vous avez mis en place ou gérés]</p>
-                    </li>
-                    <li>
-                      <strong>Vérifier le respect des règles d'utilisation des ressources numériques</strong>
-                      <p>[Exemples de vérifications ou audits effectués]</p>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="mt-4">
-                  <h5 class="titre-section">Compétence 2 : Répondre aux incidents et aux demandes d'assistance</h5>
-                  <div class="titre-barre"></div>
-                  <ul>
-                    <li>
-                      <strong>Collecter, suivre et orienter des demandes</strong>
-                      <p>[Détails sur votre utilisation du système de tickets ou autre méthode]</p>
-                    </li>
-                    <li>
-                      <strong>Traiter des demandes concernant les services réseau et système</strong>
-                      <p>[Exemples concrets d'incidents réseau/système traités]</p>
-                    </li>
-                    <li>
-                      <strong>Traiter des demandes concernant les applications</strong>
-                      <p>[Exemples de problèmes applicatifs résolus]</p>
-                    </li>
-                    <li>
-                      <strong>Traiter des demandes concernant les données</strong>
-                      <p>[Si applicable : exemples de récupération ou gestion de données]</p>
-                    </li>
-                  </ul>
-                </div>
-
-                <!-- Si d'autres compétences sont pertinentes pour votre alternance chez My Micro, ajoutez-les ici -->
-
-                <h4 class="titre-section">Méthodologies et outils utilisés</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Durant mon alternance, j'ai eu l'occasion d'utiliser et de me former à divers outils et méthodologies :
-                </p>
-                <ul>
-                  <li><strong>Outils de gestion de tickets</strong> : [Précisez les outils]</li>
-                  <li><strong>Outils de diagnostic</strong> : [Précisez les outils]</li>
-                  <li><strong>Logiciels de sauvegarde et restauration</strong> : [Précisez les outils]</li>
-                  <li><strong>Systèmes d'exploitation</strong> : Windows, Linux [précisez les distributions]</li>
-                  <li><strong>Outils de virtualisation</strong> : [Si applicable]</li>
-                  <li><strong>Méthodologies de gestion de projet</strong> : [Si applicable]</li>
-                </ul>
-
-                <h4 class="titre-section">Compétences développées et impact professionnel</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Cette expérience en alternance chez My Micro m'a permis de développer significativement mes compétences techniques et professionnelles :
-                </p>
-                <ul>
-                  <li><strong>Compétences techniques</strong> : Diagnostic de pannes, maintenance des équipements, configuration réseau, etc.</li>
-                  <li><strong>Compétences relationnelles</strong> : Communication avec les clients, travail en équipe, pédagogie dans l'accompagnement des utilisateurs</li>
-                  <li><strong>Compétences organisationnelles</strong> : Gestion des priorités, documentation des procédures, suivi des interventions</li>
-                </ul>
-                <p>
-                  L'alternance chez My Micro a constitué une étape déterminante dans mon parcours professionnel, me permettant de mettre en pratique les connaissances théoriques acquises en formation et de développer une expérience concrète dans un environnement professionnel dynamique.
-                </p>
-
-                <h4 class="titre-section">Conclusion</h4>
-                <div class="titre-barre"></div>
-                <p>
-                  Mon alternance chez My Micro m'a offert un cadre d'apprentissage riche et varié, me permettant d'acquérir des compétences pratiques essentielles dans le domaine de l'informatique. Les missions confiées ont parfaitement complété ma formation théorique en BTS SIO, en me confrontant à des situations professionnelles réelles et diversifiées.
-                </p>
-                <p>
-                  Cette expérience a renforcé ma capacité à gérer un parc informatique, à répondre efficacement aux incidents et demandes d'assistance, et à m'adapter aux différentes problématiques rencontrées dans le secteur. Les compétences développées constituent un socle solide pour mon projet professionnel, tant sur le plan technique que relationnel.
-                </p>
+              </div>
             </div>
-        </div>
+            <style>
+              .timeline-container { position: relative; }
+              .timeline {
+                position: relative;
+                margin-left: 20px;
+                padding-left: 20px;
+                border-left: 4px solid #198754;
+              }
+              .timeline-phase {
+                position: relative;
+                margin-bottom: 30px;
+              }
+              .timeline-dot {
+                position: absolute;
+                left: -32px;
+                top: 6px;
+                width: 20px;
+                height: 20px;
+                background: #198754;
+                border-radius: 50%;
+                border: 3px solid #fff;
+                box-shadow: 0 0 0 2px #198754;
+              }
+              .timeline-title {
+                font-size: 1.15rem;
+                font-weight: 600;
+                margin-bottom: 8px;
+              }
+              .timeline-list {
+                margin-bottom: 0;
+              }
+              @media (max-width: 575px) {
+                .timeline { margin-left: 10px; padding-left: 10px; }
+                .timeline-dot { left: -22px; width: 14px; height: 14px; }
+              }
+            </style>
 
+            <h4 class="titre-section">Difficultés rencontrées & solutions</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Gestion simultanée de tickets :</strong> Priorisation par urgence/impact, tableau de bord partagé.</li>
+              <li><strong>Compatibilité systèmes :</strong> Tests sur environnements virtualisés avant déploiement.</li>
+              <li><strong>Résistance au changement :</strong> Formations adaptées, guides simplifiés pour utilisateurs.</li>
+              <li><strong>Documentation technique insuffisante :</strong> Création d'une base de connaissances interne enrichie.</li>
+              <li><strong>Gestion sauvegardes clients :</strong> Solutions hybrides, tests réguliers, rapports de validation.</li>
+            </ul>
+
+            <h4 class="titre-section">Bilan personnel</h4>
+            <span class="titre-barre"></span>
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="titre-section">Aptitudes renforcées</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Diagnostic et résolution de problèmes techniques variés</li>
+                  <li>Gestion de projets d'infrastructure</li>
+                  <li>Communication adaptée (technique/non technique)</li>
+                  <li>Organisation en environnement multi-tâches</li>
+                  <li>Documentation structurée</li>
+                  <li>Travail en équipe et coordination interservices</li>
+                  <li>Formation des utilisateurs</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="titre-section">Axes d'amélioration</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Approfondir la sécurité informatique (audit, tests d'intrusion)</li>
+                  <li>Développer les connaissances cloud</li>
+                  <li>Renforcer le développement d'outils internes</li>
+                  <li>Améliorer la gestion de projet (méthodologies agiles)</li>
+                  <li>Préparer des certifications techniques (Cisco, Microsoft)</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 class="titre-section">Annexes</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Tableaux de suivi d'inventaire et de tickets</li>
+              <li>Exemples de guides techniques rédigés</li>
+              <li>Extraits de procédures de sauvegarde</li>
+              <li>Documentation d'installation réseau</li>
+              <li>Copies d'écran du site web My Micro</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div><!-- End Portfolio Details -->
 

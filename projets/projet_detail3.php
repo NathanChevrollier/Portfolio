@@ -67,36 +67,29 @@
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
                   <img src="../assets/img/calcu/calculette1.jpg" alt="Interface de la calculette" class="img-fluid">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/calcu/calculette2.jpg" alt="Tableau d'amortissement" class="img-fluid">
                 </div>
-
                 <div class="swiper-slide">
                   <img src="../assets/img/calcu/calculette3.jpg" alt="Exemple d'utilisation" class="img-fluid">
                 </div>
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3 class="titre-section">Informations du Projet</h3>
-            <span class="titre-barre"></span>
+            <h3>Informations du Projet</h3>
             <ul>
               <li><strong>Catégorie</strong>: Application Web/Desktop</li>
               <li><strong>Client</strong>: Microlead</li>
-              <li><strong>Terminé le</strong>: 01 Mars 2024</li>
+              <li><strong>Terminé le</strong>: 12 juin 2024</li>
               <li><strong>Page du projet</strong>: <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">Github</a></li>
               <li><strong>Technologies</strong>: HTML, CSS, JavaScript, Electron</li>
             </ul>
-
             <p>
               Application destinée à simuler des prêts immobiliers en calculant automatiquement les mensualités et l'évolution du capital restant dû. Une solution pratique pour les professionnels de l'immobilier et les particuliers souhaitant planifier leurs investissements.
             </p>
@@ -105,94 +98,179 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-12">
-                <h3 class="titre-section">Description détaillée</h3>
-                <span class="titre-barre"></span>
-                <p>
-                La Calculette de prêt immobilier est une application développée dans le cadre du BTS SIO 2025. Elle offre une interface intuitive permettant de simuler rapidement les conditions d'un prêt immobilier et visualiser l'évolution du remboursement mois par mois.
-                </p>
+          <div class="col-12">
+            <h3 class="titre-section">Description succincte du projet</h3>
+            <span class="titre-barre"></span>
+            <ul class="list-unstyled">
+              <li><strong>Date, lieu :</strong> 12 juin 2024, <span class="text-muted">My Digital School Angers (BTS SIO 2025)</span></li>
+              <li><strong>Projet individuel</strong>, supervisé par l'équipe enseignante du CEFIM et Microlead (commanditaire)</li>
+            </ul>
+            <h4 class="titre-section">Contexte</h4>
+            <span class="titre-barre"></span>
+            <p>
+              Application développée dans le cadre du BTS SIO 2025 pour permettre la simulation rapide des conditions d'un prêt immobilier, avec visualisation claire de l'évolution du remboursement mois par mois.
+            </p>
+            <h4 class="titre-section">Environnement technique</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>HTML5 pour la structure de l'interface</li>
+              <li>CSS3 pour la mise en forme et les animations</li>
+              <li>JavaScript (ES6) pour la logique de calcul et les validations</li>
+              <li>Electron pour la conversion en application desktop (packaging avec Electron Forge)</li>
+            </ul>
+            <p>Distribution multiplateforme (Windows, MacOS, Linux) grâce à Electron.</p>
 
-                <h4 class="titre-section">Fonctionnalités principales</h4>
-                <span class="titre-barre"></span>
-                <ul>
-                <li><strong>Calcul de mensualités</strong> : À partir du montant emprunté, du taux d'intérêt et de la durée du prêt</li>
-                <li><strong>Tableau d'amortissement complet</strong> : Affichage détaillé mois par mois du solde initial, des échéances, des intérêts, de l'amortissement et du solde restant</li>
-                <li><strong>Validation des données saisies</strong> : Système complet de vérification des entrées pour garantir des calculs fiables</li>
-                <li><strong>Export en PDF</strong> : Possibilité d'exporter les résultats dans un document PDF pour une consultation ultérieure</li>
-                <li><strong>Application multiplateforme</strong> : Disponible comme application web ou application desktop grâce à Electron</li>
-                </ul>
+            <h4 class="titre-section">Fonctionnalités principales</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Calcul de mensualités</strong> à partir du montant, taux d'intérêt et durée</li>
+              <li><strong>Tableau d'amortissement complet</strong> affichant chaque échéance</li>
+              <li><strong>Validation des données saisies</strong> pour garantir la fiabilité des calculs</li>
+              <li><strong>Export PDF</strong> des résultats</li>
+              <li><strong>Application multiplateforme</strong> (web & desktop)</li>
+            </ul>
 
-                <h4 class="titre-section">Aspects techniques</h4>
-                <span class="titre-barre"></span>
-                <p>
-                Le projet a été développé en utilisant les technologies web standards (HTML, CSS, JavaScript) et packagé comme application desktop grâce au framework Electron. Cette approche permet une distribution simplifiée et une expérience utilisateur cohérente sur tous les systèmes d'exploitation.
-                </p>
-                <p>
-                L'interface utilisateur a été soigneusement conçue pour offrir une expérience intuitive et responsive, avec une attention particulière portée aux détails comme la validation des champs de saisie et les messages d'erreur personnalisés.
-                </p>
-
-                <h4 class="titre-section">Lien avec les compétences du tableau de synthèse</h4>
-                <span class="titre-barre"></span>
-                <p>
-                Ce projet a permis de développer plusieurs compétences clés du référentiel BTS SIO option SLAM :
-                </p>
-                <ul>
-                <li>
-                    <strong>Développer la présence en ligne de l'organisation</strong>
-                    <ul>
-                    <li>Participation à l'évolution d'un site Web exploitant les données de l'organisation</li>
-                    <li>Conception et réalisation d'une interface utilisateur</li>
+            <h4 class="titre-section">Liste des tâches et planification</h4>
+            <span class="titre-barre"></span>
+            <div class="timeline-container mb-4">
+              <div class="timeline">
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Analyse & définition des besoins</h5>
+                    <ul class="timeline-list">
+                      <li>Analyse des besoins et définition des fonctionnalités essentielles</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Mettre à disposition des utilisateurs un service informatique</strong>
-                    <ul>
-                    <li>Réalisation des tests d'intégration et d'acceptation d'un service</li>
-                    <li>Déploiement d'un service</li>
-                    <li>Accompagnement des utilisateurs dans la mise en place d'un service</li>
+                  </div>
+                </div>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Conception de l'interface utilisateur</h5>
+                    <ul class="timeline-list">
+                      <li>Design centré sur l'expérience utilisateur</li>
                     </ul>
-                </li>
-                </ul>
-
-                <h4 class="titre-section">Processus de développement</h4>
-                <span class="titre-barre"></span>
-                <p>
-                Le développement a suivi une méthodologie agile. Les principales étapes ont été :
-                </p>
-                <ol>
-                <li>Analyse des besoins et définition des fonctionnalités essentielles</li>
-                <li>Conception de l'interface utilisateur avec focus sur l'expérience utilisateur</li>
-                <li>Implémentation de la logique de calcul financier</li>
-                <li>Développement du système de validation des entrées</li>
-                <li>Intégration de la fonctionnalité d'export PDF</li>
-                <li>Packaging avec Electron pour distribution multiplateforme</li>
-                <li>Tests et corrections de bugs</li>
-                </ol>
-
-                <h4 class="titre-section">Défis techniques surmontés</h4>
-                <span class="titre-barre"></span>
-                <p>
-                Au cours du développement, plusieurs défis techniques ont été relevés :
-                </p>
-                <ul>
-                <li>Mise en place d'un système robuste de validation des entrées utilisateur avec retours visuels</li>
-                <li>Implémentation des formules financières complexes pour calculer avec précision les tableaux d'amortissement</li>
-                <li>Configuration d'Electron pour créer une application desktop à partir de technologies web</li>
-                <li>Optimisation des performances pour gérer efficacement les tableaux d'amortissement sur de longues durées</li>
-                </ul>
-
-                <h4 class="titre-section">Bénéfices et applications</h4>
-                <span class="titre-barre"></span>
-                <p>
-                Cette calculette immobilière peut être utilisée par différents acteurs :
-                </p>
-                <ul>
-                <li>Les agents immobiliers pour proposer rapidement des simulations à leurs clients</li>
-                <li>Les particuliers souhaitant évaluer différents scénarios d'emprunt</li>
-                <li>Les conseillers financiers comme outil d'aide à la décision</li>
-                <li>Les établissements bancaires pour offrir un service complémentaire à leurs clients</li>
-                </ul>
+                  </div>
+                </div>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Développement de la logique métier</h5>
+                    <ul class="timeline-list">
+                      <li>Implémentation de la logique de calcul financier</li>
+                      <li>Développement du système de validation des entrées</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Ajout de fonctionnalités avancées</h5>
+                    <ul class="timeline-list">
+                      <li>Intégration de l'export PDF</li>
+                      <li>Packaging avec Electron pour distribution multiplateforme</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-phase">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h5 class="timeline-title">Tests & corrections</h5>
+                    <ul class="timeline-list">
+                      <li>Tests et corrections de bugs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+            <style>
+              .timeline-container { position: relative; }
+              .timeline {
+                position: relative;
+                margin-left: 20px;
+                padding-left: 20px;
+                border-left: 4px solid #198754;
+              }
+              .timeline-phase {
+                position: relative;
+                margin-bottom: 30px;
+              }
+              .timeline-dot {
+                position: absolute;
+                left: -32px;
+                top: 6px;
+                width: 20px;
+                height: 20px;
+                background: #198754;
+                border-radius: 50%;
+                border: 3px solid #fff;
+                box-shadow: 0 0 0 2px #198754;
+              }
+              .timeline-title {
+                font-size: 1.15rem;
+                font-weight: 600;
+                margin-bottom: 8px;
+              }
+              .timeline-list {
+                margin-bottom: 0;
+              }
+              @media (max-width: 575px) {
+                .timeline { margin-left: 10px; padding-left: 10px; }
+                .timeline-dot { left: -22px; width: 14px; height: 14px; }
+              }
+            </style>
+
+            <h4 class="titre-section">Difficultés rencontrées & solutions</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li><strong>Validation robuste des entrées utilisateur :</strong> Fonctions de validation avancées avec feedback visuel et messages d'erreur personnalisés.</li>
+              <li><strong>Implémentation des formules financières complexes :</strong> Utilisation de la formule d'annuité constante, gestion des arrondis à deux décimales.</li>
+              <li><strong>Configuration d'Electron et packaging :</strong> Utilisation d'Electron Forge, configuration multi-plateforme.</li>
+              <li><strong>Création dynamique du tableau d'amortissement :</strong> Génération DOM optimisée via createElement/appendChild.</li>
+            </ul>
+
+            <h4 class="titre-section">Bilan personnel</h4>
+            <span class="titre-barre"></span>
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="titre-section">Aptitudes renforcées</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Conception et réalisation d'interfaces utilisateur responsive et ergonomiques</li>
+                  <li>Développement de logiques de calcul complexes avec JavaScript</li>
+                  <li>Gestion de projet en autonomie</li>
+                  <li>Gestion des erreurs et validation des données utilisateur</li>
+                  <li>Maîtrise de Git et du packaging d'applications</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="titre-section">Axes d'amélioration</h5>
+                <span class="titre-barre"></span>
+                <ul>
+                  <li>Intégration de tests unitaires automatisés</li>
+                  <li>Fonctionnalités avancées (comparaison de scénarios, sauvegarde des simulations)</li>
+                  <li>Modernisation du design (framework CSS)</li>
+                  <li>Approfondissement des formules financières</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 class="titre-section">Annexes</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Code source sur <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">github.com/NathanChevrollier/NathanC_public</a></li>
+              <!-- Ajouter ici d'autres liens annexes si disponibles -->
+            </ul>
+
+            <h4 class="titre-section">Applications et bénéfices</h4>
+            <span class="titre-barre"></span>
+            <ul>
+              <li>Agents immobiliers : simulations rapides pour les clients</li>
+              <li>Particuliers : évaluation de scénarios d'emprunt</li>
+              <li>Conseillers financiers : outil d'aide à la décision</li>
+              <li>Banques : service complémentaire pour les clients</li>
+            </ul>
+          </div>
         </div>
 
       </div>
