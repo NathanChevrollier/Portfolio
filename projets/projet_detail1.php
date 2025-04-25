@@ -69,6 +69,16 @@
                     <div class="swiper-wrapper align-items-center">
 
                     <div class="swiper-slide">
+                        <img src="../assets/img/click/client.png" alt="Aperçu interface client Click'n Eat" 
+                            style="max-width: 100%; height: auto; max-height: 500px; object-fit: contain;">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/click/restau.png" alt="Aperçu interface restaurateur Click'n Eat" 
+                            style="max-width: 100%; height: auto; max-height: 500px; object-fit: contain;">
+                    </div>
+
+                    <div class="swiper-slide">
                         <img src="../assets/img/clickneat/clickneat-admin.jpg" alt="Interface administrateur de Click'n Eat" 
                             style="max-width: 100%; height: auto; max-height: 500px; object-fit: contain;">
                     </div>
@@ -579,7 +589,6 @@
           <div class="col-md-6">
             <h4 class="titre-section">Diagramme de classes</h4>
             <span class="titre-barre"></span>
-            <img src="../assets/img/click/7-Diagramme de Classes.png" alt="Diagramme de classes" class="img-fluid mb-3">
             <p>Le diagramme de classes présente les principales entités du système et leurs relations :</p>
             <ul>
               <li>Hiérarchie des classes et héritage</li>
