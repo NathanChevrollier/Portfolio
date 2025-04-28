@@ -81,7 +81,7 @@
               <li><strong>Entreprise</strong>: My Micro</li>
               <li><strong>Secteur</strong>: Informatique / Services</li>
               <li><strong>Localisation</strong>: Angers / Thouarcé</li>
-              <li><strong>Période</strong>: Septembre 2023 - Juillet 2025</li>
+              <li><strong>Période</strong>: Decembre 2023 - septembre 2024</li>
               <li><strong>Site Web</strong>: <a href="https://www.my-micro.net" target="_blank">www.my-micro.net</a></li>
             </ul>
             <p>
@@ -97,7 +97,7 @@
             <h3 class="titre-section">Description succincte de l'alternance</h3>
             <span class="titre-barre"></span>
             <ul class="list-unstyled">
-              <li><strong>Période :</strong> Septembre 2023 - Juillet 2025, <span class="text-muted">My Micro, Angers / Thouarcé</span></li>
+              <li><strong>Période :</strong> Decembre 2023 - septembre 2024, <span class="text-muted">My Micro, Angers / Thouarcé</span></li>
               <li><strong>Alternance encadrée par un responsable technique et une équipe de techniciens spécialisés</strong></li>
             </ul>
             <h4 class="titre-section">Contexte</h4>
@@ -116,7 +116,7 @@
             <ul>
               <li><strong>Systèmes</strong> : Windows 10/11/Server, Linux (Ubuntu, Debian)</li>
               <li><strong>Outils diagnostic</strong> : HWiNFO, CrystalDiskInfo, AIDA64</li>
-              <li><strong>Réseau</strong> : Wireshark, routeurs/switchs Cisco</li>
+              <li><strong>Réseau</strong> : routeurs/switchs Cisco</li>
               <li><strong>Sauvegarde</strong> : Acronis True Image, solutions hybrides</li>
               <li><strong>Virtualisation</strong> : VMware</li>
               <li><strong>Développement</strong> : HTML, CSS, PHP, JavaScript</li>
@@ -259,16 +259,6 @@
                 </ul>
               </div>
             </div>
-
-            <h4 class="titre-section">Annexes</h4>
-            <span class="titre-barre"></span>
-            <ul>
-              <li>Tableaux de suivi d'inventaire et de tickets</li>
-              <li>Exemples de guides techniques rédigés</li>
-              <li>Extraits de procédures de sauvegarde</li>
-              <li>Documentation d'installation réseau</li>
-              <li>Copies d'écran du site web My Micro</li>
-            </ul>
           </div>
         </div>
       </div>

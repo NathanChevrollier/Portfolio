@@ -265,14 +265,10 @@
               </div>
             </div>
 
-            <h4 class="titre-section">Annexes</h4>
+            <h4 class="titre-section">Annexe</h4>
             <span class="titre-barre"></span>
             <ul>
               <li>Code source sur <a target="_blank" href="https://github.com/NathanChevrollier/NathanC_public">github.com/NathanChevrollier/NathanC_public</a></li>
-              <li>Documentation technique de l'architecture PHP modulaire</li>
-              <li>Tableau de synthèse des compétences BTS SIO</li>
-              <li>Schéma du workflow CI/CD</li>
-              <li>Maquettes et wireframes</li>
             </ul>
           </div>
         </div>
